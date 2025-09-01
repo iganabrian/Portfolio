@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Igana Brian, Data Analyst Portfolio">
+    <title>Igana Brian - Data Analyst Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom styles for cozy hotel palette -->
+    <style>
+        :root {
+            --warm-beige: #F8E6C8;
+            --soft-taupe: #6B5E4F;
+            --muted-gold: #B89778;
+            --creamy-off-white: #FDF6E9;
+        }
+        body {
+            background-color: var(--warm-beige);
+        }
+        .bg-warm-beige { background-color: var(--warm-beige); }
+        .text-soft-taupe { color: var(--soft-taupe); }
+        .bg-soft-taupe { background-color: var(--soft-taupe); }
+        .text-muted-gold { color: var(--muted-gold); }
+        .bg-creamy-off-white { background-color: var(--creamy-off-white); }
+        .hover\:text-muted-gold:hover { color: var(--muted-gold); }
+        .hover\:bg-muted-gold:hover { background-color: var(--muted-gold); }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Static Navbar -->
+    <nav class="bg-soft-taupe text-creamy-off-white fixed w-full top-0 z-10 shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-xl font-bold">Brian Igana</h1>
+            <div class="space-x-4">
+                <a href="#home" class="hover:text-muted-gold">Home</a>
+                <a href="#projects" class="hover:text-muted-gold">Projects</a>
+                <a href="#contact" class="hover:text-muted-gold">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section (Landing Page) -->
+    <section id="home" class="min-h-screen flex items-center bg-warm-beige pt-16">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <!-- Left: Hero Section -->
+                <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold text-soft-taupe mb-4">Brian Igana</h1>
+                    <p class="text-xl md:text-2xl text-gray-700 mb-6">Data Analyst | Transforming Data into Insights</p>
+                    <div class="space-x-4">
+                        <a href="brian_igana_resume.pdf"  class="bg-soft-taupe text-creamy-off-white px-6 py-3 rounded-full font-semibold hover:bg-muted-gold">Download Resume</a>
+                        <a href="#projects" class="bg-creamy-off-white text-soft-taupe px-6 py-3 rounded-full font-semibold hover:bg-muted-gold">View My Projects</a>
+                    </div>
+                </div>
+                <!-- Right: Profile Picture and About Me -->
+                <div class="md:w-1/2 text-center">
+                    <img src="Brian_Igana.jpg" alt="Igana Brian" class="w-32 h-32 md:w-48 md:h-48 rounded-full mx-auto mb-6 border-4 border-soft-taupe object-cover">
+                    <div class="max-w-md mx-auto">
+                        <h2 class="text-3xl font-bold text-soft-taupe mb-4">About Me</h2>
+                        <p class="text-lg text-gray-700">I’m a dedicated data analyst with expertise in SQL, Power BI, and Excel. I thrive on turning complex data into actionable insights to drive business success. Let’s connect to unlock the power of data!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-creamy-off-white">
+        <div class="container mx-auto px-4">
+            <!-- Project Navigation -->
+            <h2 class="text-3xl font-bold text-center text-soft-taupe mb-8">Data Analysis Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Project Card 1 -->
+                <div class="bg-warm-beige p-6 rounded-lg shadow-md">
+                    <img src="Coffee Sales Analysis/Dashboard.PNG"Sales Dashboard" class="w-full h-40 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold text-soft-taupe mb-2">Coffe Sales Analysis</h3>
+                    <p class="text-gray-600 mb-4">Interactive dashboard analyzing sales trends using Excel.</p>
+                    <a href="project1.html" class="text-muted-gold hover:underline">Read More</a>
+                </div>
+                <!-- Project Card 2 -->
+            
+                <!-- Add more projects here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="py-16 bg-warm-beige">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-soft-taupe mb-8">Contact Me</h2>
+            <div class="max-w-lg mx-auto text-center text-gray-700">
+                <p class="mb-4"><i class="fas fa-phone mr-2 text-soft-taupe"></i> +254-727-288-048</p>
+                <!-- <p class="mb-4"><i class="fas fa-envelope mr-2 text-soft-taupe"></i> <a href="brianigana@gmail.com" class="text-muted-gold hover:underline">brianigana@gmail.com</a></p> -->
+                <p class="mb-4"><i class="fab fa-github mr-2 text-soft-taupe"></i> <a href="https://github.com/iganabrian" target="_blank" class="text-muted-gold hover:underline">github.com/iganabrian</a></p>
+                <p class="mb-4"><i class="fab fa-x-twitter mr-2 text-soft-taupe"></i> <a href="https://x.com/_igana" target="https://x.com/_Igana?t=9smPr4GhnE4BsPfqQ2xJ_A&s=09" class="text-muted-gold hover:underline">_igana</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-soft-taupe text-creamy-off-white py-4 text-center">
+        <p>&copy; 2025 Igana Brian. All rights reserved.</p>
+        <div class="mt-2">
+            <a href="https://github.com/iganabrian" target="_blank" class="text-creamy-off-white mx-2 hover:text-muted-gold"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/_igana" target="https://x.com/_Igana?t=9smPr4GhnE4BsPfqQ2xJ_A&s=09" class="text-creamy-off-white mx-2 hover:text-muted-gold"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://linkedin.com/in/iganabrian" target="https://x.com/_Igana?t=9smPr4GhnE4BsPfqQ2xJ_A&s=09" class="text-creamy-off-white mx-2 hover:text-muted-gold"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Smooth scroll for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
